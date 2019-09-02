@@ -37,9 +37,10 @@ ggplot(aes(x=nyc_rental_day), data = nyc_bike) +
 
 # Histogram for month up to June
 ## adding white outline
+### change bindiwth to 1
 library(ggplot2)
 ggplot(aes(x=nyc_rental_m), data = nyc_bike) +
-  geom_histogram(color = 'white', fill = 'blue') +
+  geom_histogram(binwidth = 1, color = 'white', fill = 'blue') +
   ggtitle('NYC Monthly Rentals') + 
   labs(x="Rentals By Month Through June")
 
