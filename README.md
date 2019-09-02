@@ -9,7 +9,10 @@ The project forks a remote github repo, clones and edits the repo and pushes cha
 
 ### Files used
 bikeshare.r, ggplot.r, README
-gitignore csv data files
+.gitignore csv data files
 
 ### Credits
 This project was forked from udacity/pdsnd_github.
+
+### Commuters vs subscribers
+facet_wrap added to bikeshare to better illustrate differences in commuter vs subscribers
