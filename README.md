@@ -16,3 +16,6 @@ This project was forked from udacity/pdsnd_github.
 
 ### Commuters vs subscribers
 facet_wrap added to bikeshare to better illustrate differences in commuter vs subscribers
+
+### geom_histogram
+Revised ggplot parameters to show clearer delineation of hourly rentals.
